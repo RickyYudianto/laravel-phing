@@ -24,6 +24,7 @@
         <exclude name="PSR2.Classes.ClassDeclaration"/>
         <!-- Proposed by API team -->
         <exclude name="PSR2.Methods.FunctionCallSignature"/>
+		<exclude name="PSR2.Files.EndFileNewline"/>
         <exclude name="Squiz.WhiteSpace.ScopeClosingBrace"/>
         <exclude name="Squiz.ControlStructures.ForLoopDeclaration"/>
         <exclude name="Squiz.ControlStructures.LowercaseDeclaration"/>
@@ -31,11 +32,16 @@
         <exclude name="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
         <exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
+		<exclude name="Squiz.Functions.LowercaseFunctionKeywords"/>
         <exclude name="Generic.Formatting.DisallowMultipleStatements"/>
         <exclude name="Generic.WhiteSpace.ScopeIndent"/>
         <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
         <exclude name="Generic.Functions.FunctionCallArgumentSpacing"/>
         <exclude name="Generic.ControlStructures.InlineControlStructure"/>
+		<exclude name="Generic.PHP.LowerCaseConstant"/>
+		<exclude name="Generic.NamingConventions.UpperCaseConstantName"/>
+		<exclude name="Generic.PHP.LowerCaseKeyword"/>
+		<exclude name="Generic.Files.LineEndings"/>
     </rule>
     <rule ref="Squiz.ControlStructures.InlineIfDeclaration">
     </rule>
