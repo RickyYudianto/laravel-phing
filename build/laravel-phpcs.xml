@@ -43,8 +43,6 @@
 	<exclude name="Generic.NamingConventions.UpperCaseConstantName"/>
 	<exclude name="Generic.PHP.LowerCaseKeyword"/>
 	<exclude name="Generic.Files.LineEndings"/>
-
-    </rule>
     </rule>
     <rule ref="Internal.NoCodeFound">
         <exclude-pattern>*/views/*</exclude-pattern>
