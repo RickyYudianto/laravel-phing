@@ -42,6 +42,7 @@
 		<exclude name="Generic.NamingConventions.UpperCaseConstantName"/>
 		<exclude name="Generic.PHP.LowerCaseKeyword"/>
 		<exclude name="Generic.Files.LineEndings"/>
+
     </rule>
     <rule ref="Squiz.ControlStructures.InlineIfDeclaration">
     </rule>
