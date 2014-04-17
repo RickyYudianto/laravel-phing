@@ -7,11 +7,6 @@
 
     <exclude-pattern>*/start/*</exclude-pattern>
 
-    <rule ref="PSR1">
-        <exclude name="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
-        <!-- Proposed by API team -->
-        <exclude name="PSR1.Classes.ClassDeclaration"/>
-    </rule>
     <rule ref="PSR2">
         <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine"/>
         <exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
@@ -34,6 +29,7 @@
         <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
         <exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
 	<exclude name="Squiz.Functions.LowercaseFunctionKeywords"/>
+	<exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndFile"/>
         <exclude name="Generic.Formatting.DisallowMultipleStatements"/>
         <exclude name="Generic.WhiteSpace.ScopeIndent"/>
         <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
