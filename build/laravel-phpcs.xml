@@ -11,9 +11,9 @@
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"></rule>
     <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"></rule>
     <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"></rule>
-    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"></rule>
     <rule ref="Generic.Files.OneClassPerFile"></rule>
     <rule ref="Generic.PHP.DisallowShortOpenTag"></rule>
+    <rule ref="Generic.Strings.UnnecessaryStringConcat"></rule>
     <rule ref="PSR1.Files.SideEffects"></rule>
     <rule ref="Internal.NoCodeFound">
         <exclude-pattern>*/views/*</exclude-pattern>
