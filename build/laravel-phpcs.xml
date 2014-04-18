@@ -1,45 +1,21 @@
 <?xml version="1.0"?>
-<ruleset name="Laravel Modified PSR-1">
-
-    <description>
-        A custom coding standard mostly based on PSR-1, adapted to Laravel.
-    </description>
+<ruleset name="Laravel">
 
     <exclude-pattern>*/start/*</exclude-pattern>
 
-    <rule ref="PSR2">
-        <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine"/>
-        <exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
-        <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/>
-        <exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed"/>
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/>
-        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
-        <exclude name="Squiz.ControlStructures.ControlSignature"/>
-        <exclude name="PSR2.Classes.ClassDeclaration"/>
-        <!-- Proposed by API team -->
-        <exclude name="PSR2.Methods.FunctionCallSignature"/>
-	<exclude name="PSR2.Files.EndFileNewline"/>
-	<exclude name="PSR2.ControlStructures.ControlStructureSpacing"/>
-        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace"/>
-        <exclude name="Squiz.ControlStructures.ForLoopDeclaration"/>
-        <exclude name="Squiz.ControlStructures.LowercaseDeclaration"/>
-        <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace"/>
-        <exclude name="Squiz.WhiteSpace.ScopeKeywordSpacing"/>
-        <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
-        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
-	<exclude name="Squiz.Functions.LowercaseFunctionKeywords"/>
-	<exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndFile"/>
-        <exclude name="Generic.Formatting.DisallowMultipleStatements"/>
-        <exclude name="Generic.WhiteSpace.ScopeIndent"/>
-        <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
-        <exclude name="Generic.Functions.FunctionCallArgumentSpacing"/>
-        <exclude name="Generic.ControlStructures.InlineControlStructure"/>
-	<exclude name="Generic.PHP.LowerCaseConstant"/>
-	<exclude name="Generic.NamingConventions.UpperCaseConstantName"/>
-	<exclude name="Generic.PHP.LowerCaseKeyword"/>
-	<exclude name="Generic.Files.LineEndings"/>
-    </rule>
+    <rule ref="Generic.Classes.DuplicateClassName"></rule>
+    <rule ref="Generic.CodeAnalysis.EmptyStatement"></rule>
+    <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"></rule>
+    <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall"></rule>
+    <rule ref="Generic.CodeAnalysis.JumbledIncrementer"></rule>
+    <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"></rule>
+    <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"></rule>
+    <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"></rule>
+    <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"></rule>
+    <rule ref="Generic.Files.OneClassPerFile"></rule>
+    <rule ref="Generic.PHP.ClosingPHPTag"></rule>
+    <rule ref="Generic.PHP.DisallowShortOpenTag"></rule>
+    <rule ref="PSR1.Files.SideEffects"></rule>
     <rule ref="Internal.NoCodeFound">
         <exclude-pattern>*/views/*</exclude-pattern>
     </rule>
