@@ -13,7 +13,6 @@
     <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"></rule>
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"></rule>
     <rule ref="Generic.Files.OneClassPerFile"></rule>
-    <rule ref="Generic.PHP.ClosingPHPTag"></rule>
     <rule ref="Generic.PHP.DisallowShortOpenTag"></rule>
     <rule ref="PSR1.Files.SideEffects"></rule>
     <rule ref="Internal.NoCodeFound">
