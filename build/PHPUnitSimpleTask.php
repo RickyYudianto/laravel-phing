@@ -93,6 +93,7 @@ class PHPUnitSimpleTask extends Task {
             $backup = $this->phpunit . ".orig";
             $copy = copy($this->template, $backup);
             $copy = copy($this->phpunit, $this->template);
+            echo "Executing $cmd";
             $phpunit = shell_exec($cmd);
             copy($backup, $this->template);
             unlink($backup);
