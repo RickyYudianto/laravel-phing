@@ -12,7 +12,6 @@
 
     <target name="analyze" depends="init,
                                     phpunit,
-                                    jshint,
                                     phploc,
                                     phpcs,
                                     phpmd,
