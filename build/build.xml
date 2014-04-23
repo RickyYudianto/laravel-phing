@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="deepsea 1.1 API" default="build" phingVersion="2.4.11">
-    <taskdef name="jshint" classname="JSHintTask" />
     <taskdef name="csslint" classname="CSSLintTask" />
     <taskdef name="phpunitlaravel" classname="PHPUnitSimpleTask" />
 
