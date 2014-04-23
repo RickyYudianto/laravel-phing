@@ -2,6 +2,7 @@
 <project name="deepsea 1.1 API" default="build" phingVersion="2.4.11">
     <taskdef name="csslint" classname="CSSLintTask" />
     <taskdef name="phpunitlaravel" classname="PHPUnitSimpleTask" />
+    <taskdef name="jshint" classname="JSHintTask" />
 
     <target name="build" depends="init,
                                   verify,
