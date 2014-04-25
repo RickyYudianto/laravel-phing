@@ -94,9 +94,12 @@ class PHPUnitSimpleTask extends Task {
             $copy = copy($this->template, $backup);
             $copy = copy($this->phpunit, $this->template);
             echo "Executing $cmd";
-            $phpunit = shell_exec($cmd);
+            $phpunit = exec($cmd,$output,$return);
             copy($backup, $this->template);
             unlink($backup);
+            if ($return != 0) {
+                throw new BuildException("PHPUnit Failed!");
+            }
         } else {
             echo "Could not find file: $this->phplist";
         }
